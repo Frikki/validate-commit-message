@@ -18,7 +18,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bluebird": "^2.9.34"
+    "bluebird": "^2.9.34",
+    "shelljs": "^0.5.3"
   },
   "scripts": {
     "patch": "node release.js patch",
