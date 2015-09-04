@@ -1,10 +1,9 @@
 # validate-commit-message
 GIT COMMIT-MSG hook for validating commit message.
 
-## Installation:
+## Installation
 
 ```shell
-$ cd <repo>
-$ ln -s validate-commit-msg.js .git/hooks/commit-msg
-$ chmod +x .git/hooks/commit-msg
+$ npm install validate-commit-message
+$ validate-commit-msg
 ```

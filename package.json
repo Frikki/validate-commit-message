@@ -1,0 +1,32 @@
+{
+  "name": "validate-commit-message",
+  "version": "0.0.1",
+  "author": "Frederik Krautwald",
+  "description": "GIT COMMIT-MSG hook for validating commit message.",
+  "license": "Unlicense",
+  "bugs": "https://github.com/Frikki/validate-commit-message/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frikki/validate-commit-message"
+  },
+  "keywords": [
+    "git",
+    "message validation"
+  ],
+  "bin": {
+    "validate-commit-msg": "./bin/validate-commit-msg.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "patch": "node release.js patch",
+    "minor": "node release.js minor",
+    "major": "node release.js major",
+    "hook": "ln -s ../../lib/validate-commit-msg.js .git/hooks/commit-msg",
+    "prehook": "rm -f .git/hooks/commit-msg",
+    "posthook": "chmod +x .git/hooks/commit-msg",
+    "initChangelog": "touch CHANGELOG.md",
+    "postinitChangelog": "git add CHANGELOG.md",
+    "init": "npm install && npm run initChangelog && npm run hook"
+  }
+}
