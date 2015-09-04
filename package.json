@@ -17,7 +17,9 @@
     "validate-commit-msg": "./bin/validate-commit-msg.js"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "bluebird": "^2.9.34"
+  },
   "scripts": {
     "patch": "node release.js patch",
     "minor": "node release.js minor",
