@@ -11,7 +11,24 @@ to [the AngularJS commit message guidelines].
 
 ```shell
 $ npm install validate-commit-message
-$ validate-commit-msg
 ```
+
+## Usage
+
+You can activate the hook from the command line of your project.
+
+```shell
+$ node ./node_modules/.bin/validate-commit-msg
+```
+
+A more consistent way is to add a script in your `package.json`.
+
+```
+"scripts": {
+  "init": "validate-commit-msg"
+}
+```
+
+Then execute `$ npm run init`.
 
 [the AngularJS commit message guidelines]: https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo
