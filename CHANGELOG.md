@@ -1,3 +1,21 @@
+# v2.0.0 (2015-09-05)
+
+
+## Features
+
+- remove jasmine check
+  ([014da28b](https://bitbucket.org/rabbitsystems/favodine/commits/014da28bab0bd8204b4ba3c1c50972595a3add83))
+
+
+## Breaking Changes
+
+- due to [014da28b](https://bitbucket.org/rabbitsystems/favodine/commits/014da28bab0bd8204b4ba3c1c50972595a3add83),
+ 
+
+Remove hacky jasmine check.
+
+
+
 # v1.0.0 (2015-09-05)
 
 
