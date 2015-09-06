@@ -1,3 +1,21 @@
+# v3.0.0 (2015-09-06)
+
+
+## Features
+
+- remove local release and changelog scripts
+  ([fa9889dd](https://github.com/Frikki/validate-commit-message/commits/fa9889dda51ff3745ad3a168b1ce0b7b5fe4250f))
+
+
+## Breaking Changes
+
+- due to [fa9889dd](https://github.com/Frikki/validate-commit-message/commits/fa9889dda51ff3745ad3a168b1ce0b7b5fe4250f),
+  `release.js` and `changelog.js` have been removed.
+
+BREAKING CHANGE: `initChangelog` scripts has been removed from `package.json`.
+
+
+
 # v2.0.1 (2015-09-06)
 
 
