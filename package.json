@@ -18,9 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bluebird": "^2.9.34",
-    "cli-release": "^1.0.0",
-    "shelljs": "^0.5.3"
+    "cli-release": "^1.0.0"
   },
   "scripts": {
     "patch": "release patch",
@@ -29,8 +27,6 @@
     "hook": "ln -s ../../lib/validate-commit-msg.js .git/hooks/commit-msg",
     "prehook": "rm -f .git/hooks/commit-msg",
     "posthook": "chmod +x .git/hooks/commit-msg",
-    "initChangelog": "touch CHANGELOG.md",
-    "postinitChangelog": "git add CHANGELOG.md",
-    "init": "npm install && npm run initChangelog && npm run hook"
+    "init": "npm install && npm run hook"
   }
 }
