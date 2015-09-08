@@ -17,11 +17,11 @@ function stdExecCallback(error, stdout, stderr) {
 }
 
 function prehook() {
-  exec('rm .git/hooks/commit-msg');
+  exec('rm -f ./.git/hooks/commit-msg');
 }
 
 function posthook() {
-  exec('chmod +x .git/hooks/commit-msg',
+  exec('chmod +x ./.git/hooks/commit-msg',
     function callback(error, stdout, stderr) {
       if (stdout) {
         console.log(stdout);
