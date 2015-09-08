@@ -1,6 +1,6 @@
 {
   "name": "validate-commit-message",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "Frederik Krautwald",
   "description": "GIT COMMIT-MSG hook for validating commit message.",
   "license": "Unlicense",

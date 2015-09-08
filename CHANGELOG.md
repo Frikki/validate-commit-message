@@ -1,3 +1,12 @@
+# v3.0.1 (2015-09-08)
+
+
+## Bug Fixes
+
+- **bin:** chmod: cannot access ‘.git/hooks/commit-msg’: No such file or directory
+  ([8ce6ec75](https://github.com/Frikki/validate-commit-message/commits/8ce6ec75681a09cc564fad872701b6923fd681c9))
+
+
 # v3.0.0 (2015-09-06)
 
 
