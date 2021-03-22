@@ -1,3 +1,12 @@
+# v3.2.0 (2021-03-22)
+
+
+## Features
+
+- add ci commit type (#6)
+  ([1050acae](https://github.com/Frikki/validate-commit-message/commits/1050acaec3840627587cbb4ed26276102d850135))
+
+
 # v3.0.1 (2015-09-08)
 
 
